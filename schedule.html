@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Schedule | Schulich O-Week 2025</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html"><span class="brand-mark">S</span><span>O-Week 2025</span></a>
+    <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
+    <nav class="site-nav" id="site-nav" data-nav><a href="registration.html">Registration</a><a href="schedule.html" aria-current="page">Schedule</a><a href="socials.html">Socials</a><a href="resources.html">Resources</a><a href="sponsors.html">Sponsors</a><a href="faq.html">FAQ</a></nav>
+  </header>
+  <main class="dark-page">
+    <section class="section page-section dark-section">
+      <div class="section-heading reveal"><p class="eyebrow">Event Schedule</p><h1 class="page-title">Orientation Week At A Glance</h1><p>Morning programming is led by Undergraduate Medical Education. Student-led activities typically continue through the afternoon and evening.</p></div>
+      <div class="schedule-shell reveal">
+        <div class="schedule-tabs" role="tablist" aria-label="Filter schedule by day"><button class="tab is-active" type="button" data-filter="all">All</button><button class="tab" type="button" data-filter="mon">Mon</button><button class="tab" type="button" data-filter="tue">Tue</button><button class="tab" type="button" data-filter="wed">Wed</button><button class="tab" type="button" data-filter="thu">Thu</button><button class="tab" type="button" data-filter="fri">Fri</button></div>
+        <div class="schedule-list" data-schedule-list>
+          <!-- EDIT SCHEDULE: replace these placeholder events with the final O-Week schedule. Keep data-day values for filters. -->
+          <article class="schedule-item" data-day="mon"><time>Mon 9:00 AM</time><div><h2>Welcome &amp; Opening Remarks</h2><p class="meta">Host: UME Team | Location: Medical Sciences Building</p><p>Class welcome, orientation overview, and first-week logistics.</p></div></article>
+          <article class="schedule-item" data-day="mon"><time>Mon 5:30 PM</time><div><h2>Orientation Group Mixer</h2><p class="meta">Host: O-Week Committee | Location: London Campus</p><p>Meet your orientation group and upper-year leaders over a casual evening program.</p></div></article>
+          <article class="schedule-item" data-day="tue"><time>Tue 10:00 AM</time><div><h2>Curriculum Foundations</h2><p class="meta">Host: UME Team | Location: Lecture Theatre</p><p>Introduction to curriculum structure, learning platforms, and expectations.</p></div></article>
+          <article class="schedule-item" data-day="wed"><time>Wed 1:00 PM</time><div><h2>Backpack &amp; Student Card Session</h2><p class="meta">Host: UME Team | Location: Student Commons</p><p>Distribution window and photo opportunity with orientation groups.</p></div></article>
+          <article class="schedule-item" data-day="thu"><time>Thu 4:00 PM</time><div><h2>Campus City Social</h2><p class="meta">Host: Student Leaders | Location: TBA</p><p>Explore local recommendations and connect with classmates across campuses.</p></div></article>
+          <article class="schedule-item" data-day="fri"><time>Fri 7:00 PM</time><div><h2>Class of 2029 Closing Event</h2><p class="meta">Host: O-Week Committee | Location: TBA</p><p>A final student-led celebration to close the week.</p></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer compact-footer"><div class="footer-columns"><div><h3>Navigation</h3><a href="index.html">Home</a><a href="registration.html">Registration</a><a href="faq.html">FAQ</a></div><div><h3>Contact</h3><a href="mailto:hippoowk@uwo.ca">hippoowk@uwo.ca</a></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
